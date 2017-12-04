@@ -90,7 +90,7 @@ so easy !
 
 ### 博客部署到远端 
 
-　我这里讲的是部署到 Github Page 创建一个 github 账号，然后创建一个跟你账户名一样的仓库，如我的 github 账户名叫 [leopardpan](https://github.com/leopardpan)，我的 github 仓库名就叫 [leopardpan.github.io](https://github.com/leopardpan/leopardpan.github.io)，创建好了之后，把刚才建立的 myBlog 项目 push 到 username.github.io仓库里去（username指的是你的github用户名），检查你远端仓库已经跟你本地 myBlog 同步了，然后你在浏览器里输入 username.github.io ，就可以访问你的博客了。
+　我这里讲的是部署到 Github Page 创建一个 github 账号，然后创建一个跟你账户名一样的仓库，如我的 github 账户名叫 [iceyangcc](https://github.com/iceyangcc)，我的 github 仓库名就叫 [iceyangcc.github.io](https://github.com/iceyangcc/iceyangcc.github.io)，创建好了之后，把刚才建立的 myBlog 项目 push 到 username.github.io仓库里去（username指的是你的github用户名），检查你远端仓库已经跟你本地 myBlog 同步了，然后你在浏览器里输入 username.github.io ，就可以访问你的博客了。
 
 
 ### 编写文章
@@ -126,7 +126,7 @@ categories: tag标签的分类，如：categories: 随笔
 
 虽然博客部署完成了，你会发现博客太简单不是你想要的，如果你喜欢我的模板的话，可以使用我的模板。
 
-首先你要获取的我博客，[Github项目地址](https://github.com/leopardpan/leopardpan.github.io.git)，你可以直接[点击下载博客](https://github.com/leopardpan/leopardpan.github.io/archive/master.zip)，进去leopardpan.github.io/ 目录下， 使用命令部署本地服务 
+首先你要获取的我博客，[Github项目地址](https://github.com/iceyangcc/iceyangcc.github.io.git)，你可以直接[点击下载博客](https://github.com/iceyangcc/iceyangcc.github.io/archive/master.zip)，进去iceyangcc.github.io/ 目录下， 使用命令部署本地服务 
 
 ```
 $ jekyll server   
@@ -220,7 +220,7 @@ $ jekyll server
 继续报错
 
 ```
-Configuration file: /Users/tendcloud-Caroline/Desktop/leopardpan.github.io/_config.yml
+Configuration file: /Users/tendcloud-Caroline/Desktop/iceyangcc.github.io/_config.yml
   Dependency Error: Yikes! It looks like you don't have jekyll-sitemap or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- jekyll-sitemap' If you run into trouble, you can find helpful resources at http://jekyllrb.com/help/! 
 jekyll 3.1.1 | Error:  jekyll-sitemap
 
@@ -242,14 +242,14 @@ $ jekyll server
 提示
 
 ```
-Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github/_config.yml
-            Source: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github
-       Destination: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github/_site
+Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/iceyangcc.github.io-github/_config.yml
+            Source: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/iceyangcc.github.io-github
+       Destination: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/iceyangcc.github.io-github/_site
  Incremental build: disabled. Enable with --incremental
       Generating... 
                     done in 0.901 seconds.
- Auto-regeneration: enabled for '/Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github'
-Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github/_config.yml
+ Auto-regeneration: enabled for '/Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/iceyangcc.github.io-github'
+Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/iceyangcc.github.io-github/_config.yml
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
 

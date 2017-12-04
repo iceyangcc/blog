@@ -95,7 +95,7 @@ Demo.entitlements（Demo是项目名称） 里添加 Key-Value: com.apple.develo
 - (void)getWifiList {
 
 	if (![[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0) {return;}
-	dispatch_queue_t queue = dispatch_queue_create("com.leopardpan.HotspotHelper", 0);
+	dispatch_queue_t queue = dispatch_queue_create("com.iceyangcc.HotspotHelper", 0);
 	[NEHotspotHelper registerWithOptions:nil queue:queue handler: ^(NEHotspotHelperCommand * cmd) {
 		if(cmd.commandType == kNEHotspotHelperCommandTypeFilterScanList) {
 			for (NEHotspotNetwork* network  in cmd.networkList) {
@@ -152,6 +152,6 @@ NEHotspotNetwork 里有如下信息：
 参考资源：[NEHotspotHelper NetworkExtension API iOS9.0](http://stackoverflow.com/questions/31704292/nehotspothelper-networkextension-api-ios9-0)
 
 <br>
-转载请注明：[潘柏信的博客](http://baixin) » [Wifi 定位原理及 iOS Wifi 列表获取](http://baixin.io/2017/01/iOS_Wifilist/)  
+转载请注明：[杨斌的博客](http://baixin) » [Wifi 定位原理及 iOS Wifi 列表获取](http://baixin.io/2017/01/iOS_Wifilist/)  
 
 

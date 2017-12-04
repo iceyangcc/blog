@@ -1,11 +1,11 @@
 # Basic
-title: 大前端杨斌的博客
+title: 杨斌
 subtitle: 个人站
-description: 欢迎来到我的博客~
+description: 欢迎来到我的博客 ~ 
 # 头像里面的标题
 avatarTitle: iceyangcc
 # 头像里面的描述
-avatarDesc: web / iOS
+avatarDesc: 大前端sir
 url: "http://blog.webfixer.cc"
 
 # Comment
@@ -15,7 +15,7 @@ comment:
 
 # Social
 social:
-    # weibo: 5366874726 
+    weibo: 6425164937 
     github: iceyangcc
     twitter: iceyangcc
     mail: iceyangcc@163.com
@@ -36,7 +36,7 @@ social:
 #
 #
 #  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#  帮忙star一下，感谢~😆 地址： https://github.com/iceyangcc/iceyangcc.github.io
 #
 #
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》

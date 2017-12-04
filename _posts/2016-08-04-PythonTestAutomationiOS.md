@@ -26,7 +26,7 @@ tags: python
 ```     
 import os
 
-os.popen('git clone https://github.com/leopardpan/leopardpan.github.io.git')   
+os.popen('git clone https://github.com/iceyangcc/iceyangcc.github.io.git')   
 
 ```       
 git pull 。。。 更新代码也是一样的。
@@ -88,7 +88,7 @@ Python对SMTP支持有smtplib和email两个模块，email负责构造邮件，sm
 	        addr.encode('utf-8') if isinstance(addr, unicode) else addr))
 
 	def send_mail(self, mail, message, title):
-		from_addr = 'leopardpan@163.com'
+		from_addr = 'iceyangcc@163.com'
 		password = ''
 		to_addr = mail
 		smtp_server = 'smtp.163.com'
@@ -104,17 +104,17 @@ Python对SMTP支持有smtplib和email两个模块，email负责构造邮件，sm
 		server.sendmail(from_addr, [to_addr], msg.as_string())
 		server.quit()
 
-	send_mail('leopardpan@icloud.com','正文','标题')
+	send_mail('iceyangcc@icloud.com','正文','标题')
 
 
 from_addr是发送方的邮箱地址，password是开通SMTP时输入的密码     
 smtp_server是smtp的服务，如果你的from_addr是gamil.com，那么就要写成smtp_server = 'smtp.gmail.com' 了。
 
-方法 send_mail(self, mail, message, title): 有四个参数，第一个不用传，第二个参数是收信人的邮箱，第三个是邮件的正文，第四个是邮件的标题，方法调用格式： `send_mail('leopardpan@icloud.com','正文','标题')`
+方法 send_mail(self, mail, message, title): 有四个参数，第一个不用传，第二个参数是收信人的邮箱，第三个是邮件的正文，第四个是邮件的标题，方法调用格式： `send_mail('iceyangcc@icloud.com','正文','标题')`
 
 注意：发送方的邮箱必须要开通SMTP功能才行，否则会报错
 
->* SMTPSenderRefused: (550, 'User has no permission', 'leopardpan@163.com')
+>* SMTPSenderRefused: (550, 'User has no permission', 'iceyangcc@163.com')
 
 163的SMTP开通，需要你登录网易邮箱，然后点击顶部的设置就会出现`POP3/SMTP/IMAP`，点击之后，勾选选择开启，这个时候需要你输入密码，记住这个密码就是上面代码中的`password`，如果你都完成的话，你把上面的代码拷贝出现，把邮箱修改成你自己的，使用 pyhton 运行一下吧。
 
@@ -127,7 +127,7 @@ smtp_server是smtp的服务，如果你的from_addr是gamil.com，那么就要�
 
 <br>
 
-转载请注明：[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/08/PythonTestAutomationiOS/) 
+转载请注明：[杨斌的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/08/PythonTestAutomationiOS/) 
 
  
 
