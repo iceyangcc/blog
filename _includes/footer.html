@@ -1,4 +1,12 @@
 <section class="footer">
+    <script>
+      // 在 about页面隐藏 评论转义标签
+      if (/\/about\//.test(window.location.href)) {
+          document.querySelectorAll('.post-comments').forEach(function(node) {
+        	node.style.display = 'none'
+        })
+      }
+    </script>
     <footer>
         <div class = "footer_div">  
         <nav class="cover-navigation navigation--social">
@@ -87,5 +95,6 @@
 
         </div>
         <div>
+          
     </footer>
 </section>
