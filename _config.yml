@@ -1,5 +1,5 @@
 # Basic
-title: 杨斌
+title: 大前端杨斌的博客
 subtitle: 个人站
 description: 欢迎来到我的博客~
 # 头像里面的标题
@@ -11,7 +11,7 @@ url: "http://blog.webfixer.cc"
 # Comment
 comment:
     disqus: iceyangcc
-    # uyan: 2151110  # 有言id,登录有言官网申请
+    uyan: 2151110  # 有言id,登录有言官网申请
 
 # Social
 social:
