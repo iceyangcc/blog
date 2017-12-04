@@ -79,6 +79,11 @@ Jekyll 需要依赖：Ruby、bundler
 ![](/images/readme//img1.png)
 
 
+### 自动刷新
+访问 (https://github.com/RobertDeRose/jekyll-livereload)
+bundle exec jekyll serve 开启
+
+
 #### 感谢   
 
 本博客在[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基础上修改的。  
