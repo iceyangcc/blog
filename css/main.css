@@ -126,10 +126,9 @@ h3 {
   padding: 6px 15px;
   margin-bottom: 20px;
   margin-top: 5px;
-  background:#B9D3EE;
+  background:#efefef;
   /*0px right, 5px botton, 5px fuzzy*/
-  box-shadow: 0px 5px 5px #9FB6CD;
-  border-left: 6px solid #1874CD; 
+  border-left: 6px solid #2aa3ef; 
   position:relative;
 }
 
@@ -341,7 +340,7 @@ img::-moz-selection {
   }
 
   .excerpt {
-    border-left: 3px solid #458B74; 
+    border-left: 3px solid #7db8ef; 
     margin: 0;
     margin-right: 10px;
     font-size: .9em;
@@ -812,33 +811,33 @@ img::-moz-selection {
     margin: 0 0 2.2em 0;
     float: left;
 
-    -moz-box-shadow:4px 4px 4px #efefef, 
-    -4px -4px 4px #efefef, 
-    4px -4px 4px #efefef, 
-    -4px 4px 4px #efefef; 
-    -webkit-box-shadow:4px 4px 4px #efefef, 
-    -4px -4px 4px #efefef, 
-    4px -4px 4px #efefef, 
-    -4px 4px 4px #efefef; 
-    box-shadow:4px 4px 4px #efefef, 
-    -4px -4px 4px #efefef, 
-    4px -4px 4px #efefef, 
-    -4px 4px 4px #efefef;
+    -moz-box-shadow:4px 4px 34px #efefef, 
+    -4px -4px 34px #efefef, 
+    4px -4px 34px #efefef, 
+    -4px 4px 34px #efefef; 
+    -webkit-box-shadow:4px 4px 34px #efefef, 
+    -4px -4px 34px #efefef, 
+    4px -4px 34px #efefef, 
+    -4px 4px 34px #efefef; 
+    box-shadow:4px 4px 34px #efefef, 
+    -4px -4px 34px #efefef, 
+    4px -4px 34px #efefef, 
+    -4px 4px 34px #efefef;
   }
   .post-list li:hover {
     /*transform:scale(1.01,1.01); */
-    -moz-box-shadow:4px 4px 4px #c9e1f6, 
-    -4px -4px 4px #c9e1f6, 
-    4px -4px 4px #c9e1f6, 
-    -4px 4px 4px #c9e1f6; 
-    -webkit-box-shadow:4px 4px 4px #c9e1f6, 
-    -4px -4px 4px #c9e1f6, 
-    4px -4px 4px #c9e1f6, 
-    -4px 4px 4px #c9e1f6; 
-    box-shadow:4px 4px 4px #c9e1f6, 
-    -4px -4px 4px #c9e1f6, 
-    4px -4px 4px #c9e1f6, 
-    -4px 4px 4px #c9e1f6;
+    -moz-box-shadow:4px 4px 34px #c9e1f6, 
+    -4px -4px 34px #c9e1f6, 
+    4px -4px 34px #c9e1f6, 
+    -4px 4px 34px #c9e1f6; 
+    -webkit-box-shadow:4px 4px 34px #c9e1f6, 
+    -4px -4px 34px #c9e1f6, 
+    4px -4px 34px #c9e1f6, 
+    -4px 4px 34px #c9e1f6; 
+    box-shadow:4px 4px 34px #c9e1f6, 
+    -4px -4px 34px #c9e1f6, 
+    4px -4px 34px #c9e1f6, 
+    -4px 4px 34px #c9e1f6;
     /*background-color: #F5FFFA;*/
   }
 
