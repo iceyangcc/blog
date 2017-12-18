@@ -78,4 +78,4 @@ HEXO接近是最近有一些朋友提出的问题，然后我做了总结，如�
 
 <br>
 
-转载请注明：[杨斌的博客](http://baixin) » [点击阅读原文](http://iceyangcc.github.io/2016/06/HEXO_Advanced/)
+转载请注明：[杨斌的博客](http://iceyangcc.github.io) » [点击阅读原文](http://iceyangcc.github.io/2016/06/HEXO_Advanced/)
