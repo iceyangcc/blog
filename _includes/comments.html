@@ -1,29 +1,72 @@
 <section class="post-comments">
 
+  <!--PC和WAP自适应版-->
+  <div id="SOHUCS"></div>
+  <script type="text/javascript">
+    (function () {
+      var appid = 'cytoqIEnk';
+      var conf = 'prod_4ffebb69da32cb1923b84c0054010b04';
+      var width = window.innerWidth || document.documentElement.clientWidth;
+      if (width < 960) {
+        window.document.write(
+          '<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' +
+          appid + '&conf=' + conf + '"><\/script>');
+      } else {
+        var loadJs = function (d, a) {
+          var c = document.getElementsByTagName("head")[0] || document.head || document.documentElement;
+          var b = document.createElement("script");
+          b.setAttribute("type", "text/javascript");
+          b.setAttribute("charset", "UTF-8");
+          b.setAttribute("src", d);
+          if (typeof a === "function") {
+            if (window.attachEvent) {
+              b.onreadystatechange = function () {
+                var e = b.readyState;
+                if (e === "loaded" || e === "complete") {
+                  b.onreadystatechange = null;
+                  a()
+                }
+              }
+            } else {
+              b.onload = a
+            }
+          }
+          c.appendChild(b)
+        };
+        loadJs("http://changyan.sohu.com/upload/changyan.js", function () {
+          window.changyan.api.config({
+            appid: appid,
+            conf: conf
+          })
+        });
+      }
+    })();
+  </script>
   {% if site.comment.uyan %}
-    <div id="uyan_frame"></div>
+  <div id="uyan_frame"></div>
 
-    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid="+'{{ site.comment.uyan }}'></script>
+  <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=" + '{{ site.comment.uyan }}'></script>
 
   {% elsif site.comment.disqus %}
-    <div id="disqus_thread"></div>
-    <script>
-    
+  <div id="disqus_thread"></div>
+  <script>
     var disqus_config = function () {
-        this.page.url = "{{ page.url | prepend: site.baseurl | prepend: site.url }}";
-        this.page.identifier = "{{ page.url }}";
+      this.page.url = "{{ page.url | prepend: site.baseurl | prepend: site.url }}";
+      this.page.identifier = "{{ page.url }}";
     };
     var disqus_shortname = '{{ site.comment.disqus }}';
-    
-    (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>要查看<a href="http://disqus.com/?ref_noscript"> Disqus </a>评论，请启用 JavaScript</noscript>
-    
+
+    (function () { // DON'T EDIT BELOW THIS LINE
+      var d = document,
+        s = d.createElement('script');
+      s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>要查看
+    <a href="http://disqus.com/?ref_noscript"> Disqus </a>评论，请启用 JavaScript</noscript>
+
   {% endif %}
 
 </section>
