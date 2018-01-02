@@ -198,4 +198,4 @@ ave some latency.
 不说了, 本次表演结束^_^,  我去学习了...
 
 
-转载请注明原地址，我的新版博客：[首发博客](http://iceyangcc.github.io) 谢谢！
+转载请注明原地址，我的新版博客：[首发于http://blog.nodejsx.tech/](http://iceyangcc.github.io) 谢谢！
