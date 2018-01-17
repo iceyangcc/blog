@@ -13,7 +13,8 @@ title: 关于我
 <p> 
 
 <p> 
-2018全力进攻nodejs
-
+2018全力进攻 后端技术
+<p>
+ps: <a href="//blog.nodejs.tech/#blog" target="_blank">blog.nodejs.tech</a> 这个域名4年内不会更换
 {% include comments.html %}
 

@@ -57,7 +57,7 @@ tag: HTTP/HTTPS
 ![HTTPS站点](/images/download-ca.png)
 到这里你已经完成了60%的任务了, 剩下的工作就是参见腾讯云nginx配置证书的文档了
 
-### * 7.nginx配置SSL证书(基本的vim操作)
+### * 7.nginx配置SSL证书
 下载证书后可以参见腾讯云开发者文档: https://cloud.tencent.com/document/product/400/4143
 修改 nginx.conf文件, nginx配置时需要监听 80 端口和 443端口(HTTPS用)
 我的配置如下(仅供参考):

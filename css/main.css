@@ -169,7 +169,7 @@ html {
 }
 
 body {
-  font-family: -apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
+  font-family: tahoma, -apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
   font-size: 14px;
   color: #333;
   -webkit-font-smoothing: antialiased;
@@ -235,7 +235,7 @@ h3 {
   text-indent: 4px;
   border-radius: 4px;
   padding: 6px 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 5px;
   background: #efefef;
   /*0px right, 5px botton, 5px fuzzy*/
@@ -284,7 +284,7 @@ blockquote p:last-child {
 
 ol,
 ul {
-  margin: 0 0 1.3em 2.5em;
+  margin: 0 0 1em 2.5em;
 }
 
 ol li,
@@ -310,10 +310,10 @@ ul {
 
 code {
   color: #000000;
-  padding: .1em .4em;
+  padding: .2em .4em;
   background: #e8f2fb;
-  border: 1px solid #c9e1f6;
-  border-radius: 3px;
+  /* border: 1px solid #c9e1f6; */
+  border-radius: 4px;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   font-size: 1.0em;
   vertical-align: bottom;
@@ -323,9 +323,9 @@ code {
 pre {
   margin-bottom: 1.3em;
   padding: 1em 2.5%;
-  background: #e8f2fb;
-  border: 1px solid #c9e1f6;
-  border-radius: 3px;
+  background: #272822;
+  /* border: 1px solid #c9e1f6; */
+  border-radius: 6px;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   font-size: .9em;
   font-weight: normal;
@@ -1069,8 +1069,7 @@ i {
 }
 
 .post-list__post-title a:hover {
-  color: #000000;
-  background-color: #FAFAFA;
+  color: #ffa500;
 }
 
 
@@ -1390,7 +1389,7 @@ input[type="tel"]:-ms-input-placeholder {
 
 /*头像效果-start*/
 html {
-  font-family: sans-serif;
+  font-family: tahoma, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
