@@ -1064,14 +1064,15 @@ i {
   margin-top: 5px;
   margin-bottom: .2em;
   font-size: 1.5em;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   line-height: 1.3em;
+  padding: 0 12px;
 }
 
 .post-list__post-title a {
   color: #333333;
   padding-top: 5px;
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
 
 .post-list__post-title a:hover {
