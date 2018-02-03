@@ -859,6 +859,9 @@ hr {
   margin-left: 20px;
   color: #458B74;
 }
+.btn-border-small:hover {
+  color: #ffa500
+}
 
 .btn-secondary {
   border-color: #5BA4E5;
@@ -1065,8 +1068,9 @@ i {
   margin-bottom: .2em;
   font-size: 1.5em;
   /* white-space: nowrap; */
-  line-height: 1.3em;
+  line-height: 1.2em;
   padding: 0 12px;
+  border-left: 4px solid #ccc;
 }
 
 .post-list__post-title a {
