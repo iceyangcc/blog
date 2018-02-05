@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "58前端面试题-ES5 bind实现原理及在React中的应用"
-date: 2017-02-05 
+date: 2018-02-05 
 description: "ES5 bind基本使用和实现原理(polyfill)"
 tag: JavaScript 
 ---   
