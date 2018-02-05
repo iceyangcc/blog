@@ -173,4 +173,4 @@ TRUNCATE TABLE  demo.cms_user;
 不说了, 表演完毕^_^, 我去学习了;  不然, 我又要被大前端的浪潮拍到沙滩上了...
 
 
-转载请注明原地址，我的新版博客：[首发于http://blog.nodejs.tech/](http://iceyangcc.github.io) 谢谢！
+转载请注明原地址，我的新版博客：[首发于http://blog.nodejs.tech/](http://blog.nodejs.tech) 谢谢！

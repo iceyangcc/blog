@@ -113,4 +113,4 @@ ps: 不符合 字段规范的对象将会被忽略
 iceyangcc@sina.com
 
 
-转载请注明原地址，我的新版博客：[首发于http://blog.nodejs.tech/](http://iceyangcc.github.io) 谢谢！
+转载请注明原地址，我的新版博客：[首发于http://blog.nodejs.tech/](http://blog.nodejs.tech) 谢谢！
