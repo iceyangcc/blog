@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "mysql入门(1)-建表和更新及其原则"
+title: "MySQL入门(1)-建表和更新及其原则"
 date: 2018-01-22 
 description: "SQL基本操作-增删改"
-tag: Mysql 
+tag: MySQL 
 ---   
 
 > 作为一个大前端工程师, 我们不能止步于传统前端的世界, 我们要向后端发展, 向全栈发展, 因为我们的职业生涯还很长, 在这个可能长达几十年的职业发展中, 充满着挑战和意想不到的困难, 我们要自我武装, 提高自己的能力, 增长自己的见识, 让才华可以支撑梦想...
 
 累了? 困了? 囧!  让我们开始吧...
 
-> mysql是当今最流行的数据库之一, 也是在国内互联网企业中广泛使用的数据库, 为了和大部队保持一致, 让我们从mysql开始学习  
+> MySQL是当今最流行的数据库之一, 也是在国内互联网企业中广泛使用的数据库, 为了和大部队保持一致, 让我们从MySQL开始学习  
 
-下面来分享一下最近的学习成果 (由于钻研数据库的时间不长, 难免会有疏漏之处, 欢迎批评指正) - mysql的更新操作, 俗称增, 删, 改
+下面来分享一下最近的学习成果 (由于钻研数据库的时间不长, 难免会有疏漏之处, 欢迎批评指正) - MySQL的更新操作, 俗称增, 删, 改
 
 ### 安装环境
  (略)
@@ -21,7 +21,7 @@ tag: Mysql
 * 使用 Navicat 客户端编写SQL代码 (有语法提示)
 * 直接实际操作数据库, 切勿干看书 
 * 数据量最好大一些, 使用脚本语言构造百万,千万, 十亿级别数据 (bt!!!)
-* 准备好mysql5.7官方参考文档: https://dev.mysql.com/doc/refman/5.7/en/
+* 准备好MySQL5.7官方参考文档: https://dev.MySQL.com/doc/refman/5.7/en/
 * 学习完SQL语句之后, 建议学习一下 数据库系统概论(大学专业课程), 增加理论基础
 * 入门之后, 看看合适的书: https://www.zhihu.com/question/28385400/answer/40607600
 
@@ -57,11 +57,11 @@ IF NOT EXISTS cms_user (
 
 
 #### ***参考数据类型***
-![](/images/mysql/mysql-datatype.png)
+![](/images/MySQL/MySQL-datatype.png)
 #### `日期类型`
-![](/images/mysql/mysql-datetype.png)
+![](/images/MySQL/MySQL-datetype.png)
 #### `字符串类型`
-![](/images/mysql/mysql-chartype.png)
+![](/images/MySQL/MySQL-chartype.png)
 
 ### 插入数据 INSERT INTO
 #### 示例: 插入单条数据
