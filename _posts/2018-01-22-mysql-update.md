@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MySQL入门(1)-建表和更新及其原则"
+title: "MySQL基础(一)-建表和更新及其原则"
 date: 2018-01-22 
 description: "SQL基本操作-增删改"
 tag: MySQL 
