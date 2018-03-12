@@ -102,15 +102,10 @@ list.json
 ps: 不符合 字段规范的对象将会被忽略
 ```
 
-## 源码地址
- [github.com/iceyangcc/mock-api-cli](https://github.com/iceyangcc/mock-api-cli), 喜欢的话帮忙 Star 一下啦, 我将持续更新
-
 ## 技术栈
 * koa / middleware
 * shell
 
-## 联系我
-iceyangcc@sina.com
 
 
 转载请注明原地址，blog.nodejs.tech：[首发于http://blog.nodejs.tech/](http://blog.nodejs.tech) 谢谢！
